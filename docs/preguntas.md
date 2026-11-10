@@ -11,12 +11,12 @@
 - tarde demasiado o cometa errores evitables (problema de eficiencia);
 - termine la tarea con frustración o inseguridad (problema de satisfacción).
 
-**Ejemplos genéricos para la discusión** (no se refieren al aula virtual de la UTA):
+**Ejemplos para la discusión:**
 - Un formulario que valida correctamente los datos, pero borra todos los campos cuando muestra un error.
 - Un botón que ejecuta bien su acción, pero cuya etiqueta no describe lo que hace.
 - Un sistema que guarda correctamente una acción, pero no muestra ninguna confirmación, por lo que el usuario la repite.
 
-**Cierre sugerido:** al terminar el laboratorio, retomar la pregunta y responderla con la evidencia obtenida: [COMPLETAR: hallazgo concreto que ilustre la respuesta].
+**Cierre sugerido:** el Dashboard 2.0 pasó las pruebas técnicas del propio equipo (verificación). Al terminar el laboratorio, retomar la pregunta y responderla con la evidencia obtenida en la validación con evaluadores nuevos: [COMPLETAR: hallazgo concreto que ilustre la respuesta].
 
 ---
 
@@ -24,7 +24,7 @@
 
 ### T1. ¿Cuántos usuarios probaron y por qué es suficiente?
 
-**Respuesta sugerida:** probamos con [COMPLETAR: n] participantes. Nuestro estudio es **formativo**: busca descubrir problemas, no certificar estadísticamente la plataforma. Según Nielsen y Landauer (1993), alrededor de cinco usuarios bastan para detectar la mayoría de los problemas frecuentes en este tipo de estudio. Reconocemos dos límites. Primero, Faulkner (2003) mostró una alta variabilidad entre muestras pequeñas. Segundo, nuestras métricas cuantitativas son **descriptivas** y no generalizables; un estudio sumativo requeriría alrededor de 20 participantes. Por eso no afirmamos porcentajes poblacionales y combinamos la prueba con una evaluación heurística, que no depende del tamaño de la muestra de usuarios.
+**Respuesta sugerida:** probamos con [COMPLETAR: n] participantes. Nuestro estudio es **formativo**: busca descubrir problemas, no certificar estadísticamente el Dashboard 2.0. Según Nielsen y Landauer (1993), alrededor de cinco usuarios bastan para detectar la mayoría de los problemas frecuentes en este tipo de estudio. Reconocemos dos límites. Primero, Faulkner (2003) mostró una alta variabilidad entre muestras pequeñas. Segundo, nuestras métricas cuantitativas son **descriptivas** y no generalizables; un estudio sumativo requeriría alrededor de 20 participantes. Por eso no afirmamos porcentajes poblacionales y combinamos la prueba con una evaluación heurística, que no depende del tamaño de la muestra de usuarios.
 
 **Evidencia a mostrar:** [COMPLETAR: número de participantes, perfil y problemas que se repitieron entre participantes]
 
@@ -52,7 +52,7 @@
 
 ### T7. ¿Cómo saben que las tareas son representativas del uso real?
 
-**Respuesta sugerida:** las tareas se seleccionaron por [COMPLETAR: criterio, p. ej., frecuencia de uso reportada por estudiantes o importancia académica]. Reconocemos que la prueba solo observa lo que las tareas recorren; por eso la evaluación heurística amplía la cobertura al resto de la interfaz.
+**Respuesta sugerida:** las seis tareas (T1 a T6) cubren el flujo principal del Dashboard: acceder, crear una prueba, registrar una observación con apoyo de IA, sintetizar y generar el Sprint Backlog, consultar el tablero SCRUM y revisar Antes/Después. El piloto usa T2, T3 y T4 por ser el recorrido central. [COMPLETAR: criterio adicional si lo hay]. Reconocemos que la prueba solo observa lo que las tareas recorren; por eso la evaluación heurística amplía la cobertura al resto de la interfaz.
 
 ### T8. Si la heurística y los usuarios no coinciden, ¿a quién le creen?
 
@@ -73,7 +73,7 @@ Si un problema no tiene evidencia de usuarios, lo declaramos como potencial y su
 
 ### O2. "Los participantes son compañeros de clase; la muestra está sesgada."
 
-**Respuesta sugerida:** los participantes pertenecen a la población objetivo (estudiantes de la UTA que usan el aula virtual), lo que aporta validez para este contexto. Reconocemos que comparten carrera y nivel de experiencia [COMPLETAR], por lo que los resultados no se generalizan a todos los estudiantes. Lo declaramos como limitación y proponemos ampliar la muestra a otras facultades.
+**Respuesta sugerida:** los participantes son evaluadores nuevos, estudiantes de Software que no participaron en el desarrollo del Dashboard, por lo que no conocen el flujo de memoria como el equipo. Reconocemos que comparten carrera y nivel de experiencia con nosotros, así que los resultados no se generalizan a otros perfiles. Lo declaramos como limitación y proponemos ampliar la muestra a otras carreras o a docentes.
 
 ### O3. "Ustedes no son expertos en usabilidad; la evaluación heurística no es válida."
 
@@ -81,19 +81,19 @@ Si un problema no tiene evidencia de usuarios, lo declaramos como potencial y su
 
 ### O4. "En un laboratorio la gente no se comporta como en la vida real."
 
-**Respuesta sugerida:** es una limitación conocida de la prueba de usabilidad; la presencia de observadores puede alterar el comportamiento. Para mitigarla, [COMPLETAR: p. ej., el moderador no ayudó durante las tareas, las tareas se plantearon como escenarios realistas y se usó el aula virtual real]. Lo declaramos en las limitaciones.
+**Respuesta sugerida:** es una limitación conocida de la prueba de usabilidad; la presencia de observadores puede alterar el comportamiento. Para mitigarla, [COMPLETAR: p. ej., el moderador no ayudó durante las tareas, las tareas se plantearon como escenarios realistas y se usó el Dashboard 2.0 desplegado, no una maqueta]. Lo declaramos en las limitaciones.
 
 ### O5. "Eso es cuestión de gusto, no un problema de usabilidad."
 
 **Respuesta sugerida:** no reportamos preferencias. Un hallazgo entra en el backlog solo si se relaciona con una heurística o con un efecto observable en las métricas. Los problemas puramente estéticos sin impacto en la tarea se clasifican como cosméticos.
 
-### O6. "Los estudiantes ya se acostumbraron; si lo usan, no es un problema."
+### O6. "Nosotros lo usamos sin problema; si funciona, no hay nada que corregir."
 
-**Respuesta sugerida:** que una interfaz se use no significa que sea usable. El uso puede deberse a la obligatoriedad y no a la facilidad. La costumbre puede ocultar costos de eficiencia (tiempo, errores) y afecta especialmente a los usuarios nuevos. Además, la **persistencia** es un factor de severidad: un problema que sigue molestando a usuarios experimentados es más grave, no menos.
+**Respuesta sugerida:** quien construye una interfaz la conoce de memoria y no puede juzgar su claridad. Que el equipo la use sin problema no demuestra que un evaluador nuevo pueda hacerlo. Esa es la diferencia entre verificación y validación. Además, la costumbre oculta costos de eficiencia (tiempo, errores) que solo aparecen con usuarios nuevos, y la **persistencia** es un factor de severidad: un problema que sigue molestando incluso a usuarios que ya lo conocen es más grave, no menos.
 
-### O7. "El grupo no puede modificar la plataforma; ¿para qué sirve el backlog?"
+### O7. "¿Para qué sirve el backlog si ustedes mismos pueden corregir todo?"
 
-**Respuesta sugerida:** el objetivo de una evaluación formativa es producir evidencia priorizada para quien sí puede decidir los cambios. El backlog documenta los problemas, su severidad y su evidencia de forma trazable y puede entregarse a los responsables del aula virtual [COMPLETAR: a quién se dirigiría].
+**Respuesta sugerida:** porque los recursos del equipo son limitados y no todo se corrige a la vez. El backlog documenta cada problema con su severidad y su evidencia de forma trazable, y permite decidir qué corregir primero (los críticos y mayores) y qué dejar para después (los cosméticos). Cada hallazgo queda como Issue de GitHub, con responsable y estado.
 
 ---
 
@@ -102,7 +102,7 @@ Si un problema no tiene evidencia de usuarios, lo declaramos como potencial y su
 1. Si una interfaz obtiene un buen puntaje SUS pero una baja tasa de éxito, ¿es usable? ¿Qué métrica pesa más y por qué?
 2. ¿Puede un problema "cosmético" volverse grave si afecta a miles de estudiantes todos los días?
 3. ¿Quién debería decidir la severidad de un problema: los evaluadores, los usuarios o los datos?
-4. ¿Es ético evaluar una plataforma institucional sin la participación de sus responsables?
+4. ¿Es ético evaluar una aplicación con participantes sin su consentimiento informado? ¿Qué hicimos nosotros para cuidarlo?
 5. ¿Qué diferencia hay entre "el usuario se equivocó" y "la interfaz indujo el error"?
 6. ¿Qué cambiaría en los resultados si los participantes fueran estudiantes de primer semestre en lugar de estudiantes avanzados?
 

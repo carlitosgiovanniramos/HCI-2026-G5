@@ -6,7 +6,7 @@
 [COMPLETAR]
 
 ## 2. Respuesta a la pregunta de evaluación
-¿En qué medida el aula virtual de la UTA permite a los estudiantes completar tareas académicas frecuentes con eficacia, eficiencia y satisfacción?
+¿En qué medida el Usability Test Dashboard 2.0 permite a un evaluador nuevo completar sus tareas principales con eficacia, eficiencia y satisfacción, y qué problemas lo impiden?
 
 [COMPLETAR]
 

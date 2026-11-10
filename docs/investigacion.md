@@ -10,7 +10,7 @@ La norma ISO 9241-11:2018 define la usabilidad como el grado en que un sistema, 
 - **Eficiencia:** recursos invertidos (tiempo, esfuerzo) en relación con el resultado obtenido.
 - **Satisfacción:** respuestas físicas, cognitivas y emocionales del usuario frente al uso.
 
-La definición es relativa: una interfaz no es usable en abstracto, sino para ciertos usuarios, ciertas tareas y cierto contexto. En este proyecto los usuarios son estudiantes de la UTA, las tareas son actividades académicas frecuentes en el aula virtual y el contexto se describe en el README.
+La definición es relativa: una interfaz no es usable en abstracto, sino para ciertos usuarios, ciertas tareas y cierto contexto. En este proyecto los usuarios son evaluadores nuevos (estudiantes de Software que no participaron en el desarrollo), las tareas son seis tareas del flujo del Usability Test Dashboard 2.0 y el contexto de uso se describe en el README.
 
 ### 1.2 Verificación vs. validación
 
@@ -26,7 +26,7 @@ Una interfaz puede superar la verificación (no tiene fallos y hace lo que dice 
 - **Formativa:** se realiza para descubrir problemas y orientar mejoras. Su producto principal son hallazgos cualitativos.
 - **Sumativa:** se realiza para medir o certificar el nivel de usabilidad, a menudo comparándolo con un criterio o con otro sistema. Su producto principal son métricas con validez estadística.
 
-Este proyecto es principalmente **formativo**. Las métricas se usan para describir y respaldar los hallazgos, no para certificar estadísticamente la plataforma.
+Este proyecto es principalmente **formativo**. Las métricas se usan para describir y respaldar los hallazgos, no para certificar estadísticamente el Dashboard 2.0.
 
 ### 1.4 Métodos analíticos vs. empíricos
 
@@ -68,14 +68,14 @@ El SUS (Brooke, 1996) es un cuestionario de 10 ítems con escala Likert de 5 pun
 
 Nielsen y Molich (1990) propusieron la evaluación heurística, y Nielsen (1994) refinó el conjunto de heurísticas a partir del análisis factorial de 249 problemas de usabilidad.
 
-| # | Heurística | Descripción | Ejemplo de pregunta guía (genérica para un aula virtual) |
+| # | Heurística | Descripción | Ejemplo de pregunta guía (aplicada al Dashboard 2.0) |
 |---|---|---|---|
-| 1 | Visibilidad del estado del sistema | El sistema mantiene informado al usuario sobre lo que ocurre, con retroalimentación oportuna. | ¿El estudiante sabe si una acción que realizó se completó correctamente? |
-| 2 | Coincidencia entre el sistema y el mundo real | Usa el lenguaje y los conceptos del usuario, no jerga técnica, y sigue convenciones del mundo real. | ¿Los términos de la interfaz corresponden a los que usa un estudiante? |
+| 1 | Visibilidad del estado del sistema | El sistema mantiene informado al usuario sobre lo que ocurre, con retroalimentación oportuna. | ¿El evaluador sabe en qué paso del asistente está y si su borrador se guardó? |
+| 2 | Coincidencia entre el sistema y el mundo real | Usa el lenguaje y los conceptos del usuario, no jerga técnica, y sigue convenciones del mundo real. | ¿Términos como "síntesis" o "Sprint Backlog" son comprensibles para un evaluador nuevo? |
 | 3 | Control y libertad del usuario | Ofrece "salidas de emergencia" claras para deshacer o abandonar acciones no deseadas. | ¿Puede cancelar o corregir una acción sin perder trabajo? |
-| 4 | Consistencia y estándares | Elementos iguales se ven y se comportan igual, y se siguen las convenciones de la plataforma y de la industria. | ¿La estructura y los controles son coherentes entre secciones o cursos? |
+| 4 | Consistencia y estándares | Elementos iguales se ven y se comportan igual, y se siguen las convenciones de la plataforma y de la industria. | ¿Los botones y la navegación son coherentes entre las secciones del Dashboard? |
 | 5 | Prevención de errores | Evitar que el error ocurra es mejor que un buen mensaje de error: se eliminan las condiciones propensas a error o se pide confirmación. | ¿Se advierte antes de una acción irreversible? |
-| 6 | Reconocer antes que recordar | Se minimiza la carga de memoria haciendo visibles los elementos, las acciones y las opciones. | ¿La interfaz muestra la información o el usuario debe recordar dónde estaba? |
+| 6 | Reconocer antes que recordar | Se minimiza la carga de memoria haciendo visibles los elementos, las acciones y las opciones. | ¿El Dashboard muestra la información o el evaluador debe recordar dónde estaba? |
 | 7 | Flexibilidad y eficiencia de uso | Ofrece aceleradores para usuarios expertos sin perjudicar a los novatos. | ¿Hay accesos directos a lo que se usa con más frecuencia? |
 | 8 | Diseño estético y minimalista | No incluye información irrelevante; cada elemento extra compite con el relevante. | ¿La información prioritaria se distingue de la secundaria? |
 | 9 | Ayudar a reconocer, diagnosticar y recuperarse de errores | Los mensajes de error usan lenguaje claro, indican el problema y sugieren una solución. | ¿El mensaje de error explica qué pasó y qué hacer? |
@@ -98,7 +98,7 @@ La escala original va de 0 a 4 (0 = no es un problema de usabilidad). Este proye
 | Cosmético | 1 | No afecta la realización de la tarea; es un detalle visual o de redacción. | Corregir si hay recursos disponibles. |
 | Menor | 2 | Causa vacilación, demora leve o errores de los que el usuario se recupera solo. | Baja. |
 | Mayor | 3 | Causa errores significativos o demoras importantes, requiere ayuda externa o hace que algunos usuarios no completen la tarea. | Alta. |
-| Crítico | 4 | Impide completar una tarea clave o puede tener consecuencias graves para el estudiante. | Imperativo corregir. |
+| Crítico | 4 | Impide completar una tarea clave o puede tener consecuencias graves para el evaluador (p. ej., pérdida de su trabajo). | Imperativo corregir. |
 
 Para reducir la subjetividad:
 1. Cada evaluador asigna la severidad por separado, sin conocer las calificaciones de los demás.
