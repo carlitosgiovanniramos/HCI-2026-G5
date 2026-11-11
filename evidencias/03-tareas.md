@@ -7,18 +7,20 @@ El moderador lee cada tarea **tal como está escrita**. No explica dónde tocar.
 
 | ID | Escenario que se le lee al usuario | Meta | Tiempo máximo | Criterio de éxito | Uso |
 |---|---|---|---|---|---|
-| T1 | "¿En qué horario atiende la cafetería?" | 60 s | 2 min | Dice "lunes a viernes, de 7:00 a 19:00" | Exposición |
+| T1 | "¿En qué horario atiende la cafetería?" | 60 s | 2 min | Dice "lunes a viernes, de 7:00 a 19:00" | **Pilotaje** y exposición |
 | T2 | "Agrega un sánduche de queso a tu pedido." | 60 s | 2 min | "Mi pedido" contiene 1 Sánduche de queso | **Pilotaje** |
 | T3 | "Agrega también dos cafés americanos." | 60 s | 2 min | "Mi pedido" contiene 1 Sánduche de queso y 2 Café americano (total $5,75) | **Pilotaje** |
 | T4 | "Ya no quieres el sánduche. Quítalo, confirma tu pedido y dime tu número de pedido." | 90 s | 3 min | Se ve "¡Pedido confirmado!" con 2 Café americano ($3,00) y el usuario dice **#CU-104** | **Pilotaje** |
-| T5 | "¿Cuántos productos de comida ofrece la cafetería?" | 60 s | 2 min | Dice **3** | Exposición |
-| T6 | "¿Cuánto pagarías por 3 croissants?" | 90 s | 3 min | Dice **$5,25** | Exposición |
+| T5 | "¿Cuántos productos de comida ofrece la cafetería?" | 60 s | 2 min | Dice **3** | **Pilotaje** y exposición |
+| T6 | "¿Cuánto pagarías por 3 croissants?" | 90 s | 3 min | Dice **$5,25** | **Pilotaje** y exposición |
 
-**Orden del pilotaje:** T2 → T3 → T4. T3 y T4 parten del pedido que dejó la tarea anterior, por eso no se pueden cambiar de orden.
+**Orden del pilotaje:** T1 → T2 → T3 → T4 → T5 → T6. T1 se responde desde la pantalla Inicio, donde empieza la sesión. T3 y T4 parten del pedido que dejó la tarea anterior. T5 y T6 van después de confirmar, para no alterar el número #CU-104 de T4.
+
+**Cambio respecto a la primera versión:** al principio el pilotaje usaba solo T2, T3 y T4, porque en el Dashboard 2.0 los datos eran compartidos y las tareas de consulta se reservaban para la clase. CaféU guarda los datos solo en el navegador, así que el 10/11/2026 se decidió pilotear las seis: así las tareas que hará la clase también se prueban antes (Issue #9).
 
 **Justificación:**
 - Las tareas del pilotaje recorren el flujo central de CaféU: **armar** un pedido (T2), **modificarlo** agregando productos (T3), **quitar** un producto y **confirmar** (T4).
-- Las tareas de la exposición son de **consulta** (T1, T5 y T6): son cortas, no dependen unas de otras y cada grupo de la clase puede hacerlas en su propio celular o laptop.
+- T1, T5 y T6 son de **consulta**: son cortas, no dependen unas de otras y cada grupo de la clase puede hacerlas en su propio celular o laptop. En el pilotaje se aplican también, para validarlas antes de usarlas con la clase.
 - **Metas:** en el APE 4, P01 y P02 hicieron tareas parecidas en la versión v3 en 17 a 26 s. Las metas de 60 a 90 s dan margen a un usuario nuevo; el pilotaje comprueba si son realistas.
 
 ## Respuestas correctas
