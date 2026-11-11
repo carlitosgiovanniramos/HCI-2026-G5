@@ -90,12 +90,12 @@ Los documentos completos están en [`evidencias/`](evidencias/):
 
 | ID | Tarea | Meta | Se usa en |
 |---|---|---|---|
-| T1 | Decir en qué horario atiende la cafetería | 60 s | Exposición |
+| T1 | Decir en qué horario atiende la cafetería | 60 s | Pilotaje y exposición |
 | T2 | Agregar un sánduche de queso al pedido | 60 s | Pilotaje |
 | T3 | Agregar también dos cafés americanos | 60 s | Pilotaje |
 | T4 | Quitar el sánduche, confirmar el pedido y decir el número de pedido | 90 s | Pilotaje |
-| T5 | Decir cuántos productos de comida ofrece la cafetería | 60 s | Exposición |
-| T6 | Decir cuánto se pagaría por 3 croissants | 90 s | Exposición |
+| T5 | Decir cuántos productos de comida ofrece la cafetería | 60 s | Pilotaje y exposición |
+| T6 | Decir cuánto se pagaría por 3 croissants | 90 s | Pilotaje y exposición |
 
 - **Reglas fijadas antes de la prueba:**
   - *Éxito:* **Sí** (sin ayuda), **Con ayuda** (tras la pista) o **No** (no la completa, la abandona o supera el doble de la meta). Solo "Sí" cuenta como éxito.
@@ -159,11 +159,9 @@ HCI-2026-G5/
 
 > Pendiente: se completan después del pilotaje (Fase 2). No se incluyen datos hasta tener evidencia real.
 
-### Prueba de usabilidad (pilotaje T2, T3 y T4)
-- Tasa de éxito: pendiente
-- Tiempo en tarea: pendiente
-- Errores: pendiente
-- SUS: pendiente
+### Prueba de usabilidad (pilotaje T1 a T6)
+- Participantes registrados: 1 de 3 ([P1](resultados/P1.md); P2 y P3 pendientes)
+- Tasa de éxito, tiempos, errores y SUS consolidados: pendientes hasta completar los 3 participantes
 
 ### Evaluación heurística
 Pendiente (Issue #6).

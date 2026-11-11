@@ -29,7 +29,7 @@ Esta guía convierte el [plan](01-plan-de-evaluacion.md) en pasos concretos para
 | Observador | Allison | Anota frases textuales y la posible heurística |
 | Soporte técnico | Henry | Deja el prototipo en el estado inicial, controla la grabación y recarga entre participantes |
 
-## 4. Una sesión paso a paso (unos 15 min)
+## 4. Una sesión paso a paso (unos 20 min)
 **Estado inicial:** Henry abrió https://false-wired-67481015.figma.site en una ventana de incógnito de Chrome. Se ve la pantalla **Inicio** ("Pide antes de llegar") y el botón **"Mi pedido"** marca **0**.
 
 | Paso | Quién | Qué se dice o hace |
@@ -38,14 +38,18 @@ Esta guía convierte el [plan](01-plan-de-evaluacion.md) en pasos concretos para
 | 2. Consentimiento | Moderador | Lee el texto de [02-consentimiento-informado.md](02-consentimiento-informado.md). Si acepta, marca su código y si acepta grabación |
 | 3. Grabación | Soporte | Solo si aceptó: Win + Alt + R (solo pantalla, sin audio) |
 | 4. Pensar en voz alta | Moderador | "Mientras trabajas, di en voz alta lo que piensas, lo que buscas y lo que te sorprende." |
-| 5. T2 | Moderador / registro | "Agrega un sánduche de queso a tu pedido." **El cronómetro arranca al terminar de leer** y se detiene cuando lo logra o abandona |
-| 6. T3 | Moderador / registro | "Agrega también dos cafés americanos." Igual que T2 |
-| 7. T4 | Moderador / registro | "Ya no quieres el sánduche. Quítalo, confirma tu pedido y dime tu número de pedido." Igual que T2 |
-| 8. SUS | Participante | Responde los 10 ítems solo, sin que nadie mire |
-| 9. Cierre | Moderador | "¿Qué fue lo más confuso? ¿Qué funcionó mejor?" |
-| 10. Agradecer | Moderador | Sin comentar su desempeño |
+| 5. T1 | Moderador / registro | "¿En qué horario atiende la cafetería?" **El cronómetro arranca al terminar de leer** y se detiene cuando responde o abandona |
+| 6. T2 | Moderador / registro | "Agrega un sánduche de queso a tu pedido." Igual que T1 |
+| 7. T3 | Moderador / registro | "Agrega también dos cafés americanos." Igual que T1 |
+| 8. T4 | Moderador / registro | "Ya no quieres el sánduche. Quítalo, confirma tu pedido y dime tu número de pedido." Igual que T1 |
+| 9. T5 | Moderador / registro | "¿Cuántos productos de comida ofrece la cafetería?" Igual que T1 |
+| 10. T6 | Moderador / registro | "¿Cuánto pagarías por 3 croissants?" Igual que T1 |
+| 11. SUS | Participante | Responde los 10 ítems solo, sin que nadie mire |
+| 12. Cierre | Moderador | "¿Qué fue lo más confuso? ¿Qué funcionó mejor?" |
+| 13. Agradecer | Moderador | Sin comentar su desempeño |
 
 **Cuándo termina cada tarea (detener el cronómetro):**
+- **T1, T5 y T6:** cuando el participante dice su respuesta. Se anota lo que dijo, aunque sea incorrecto.
 - **T2:** el sánduche de queso ya está en el pedido (aparece el aviso "Producto agregado al pedido" o "Mi pedido" marca 1).
 - **T3:** el pedido tiene 1 sánduche y 2 cafés americanos ("Mi pedido" marca 3).
 - **T4:** el participante dice el número de pedido en la pantalla "¡Pedido confirmado!".
@@ -55,7 +59,7 @@ Si dice "ya terminé" pero no cumple el criterio, **no lo corrijas**: detén el 
 **Lo que el moderador SÍ puede decir:**
 - Si el participante se queda callado: "¿Qué estás pensando?" (es un recordatorio, **no** cuenta como pista).
 - La pista permitida, una vez por tarea: "Vuelve a leer la tarea y revisa las opciones que tienes en pantalla." → se registra *Con ayuda*.
-- Al superar el tiempo máximo (T2 y T3: 2 min; T4: 3 min): "Gracias, pasemos a la siguiente." → se registra *No*.
+- Al superar el tiempo máximo (T1, T2, T3 y T5: 2 min; T4 y T6: 3 min): "Gracias, pasemos a la siguiente." → se registra *No*.
 - Si pregunta "¿así está bien?": "Haz lo que harías normalmente."
 
 **Lo que NO puede decir:** nombres de botones o pantallas ("Menú", "Mi pedido", "Quitar", "Confirmar"), "casi", "por ahí", "muy bien", ni señalar la pantalla.
@@ -78,6 +82,6 @@ El grupo llena la sección "Revisión del protocolo" de la hoja mientras tanto.
 | Bloque | Duración |
 |---|---|
 | Ensayo interno | 20 min |
-| 3 sesiones × 15 min | 45 min |
+| 3 sesiones × 20 min | 60 min |
 | Reinicios | 3 min |
-| **Total** | **algo más de 1 hora** |
+| **Total** | **unos 85 minutos** |

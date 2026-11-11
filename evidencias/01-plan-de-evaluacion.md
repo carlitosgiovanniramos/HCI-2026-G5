@@ -33,7 +33,7 @@ El prototipo funciona: navega, calcula totales y genera el número de pedido (**
 2. Preparar los instrumentos: consentimiento, tareas, hoja de observación, cuestionario SUS y guía del pilotaje.
 
 **Específicos del pilotaje (Fase 2):**
-3. Comprobar que las tareas T2, T3 y T4 se entienden sin explicaciones adicionales.
+3. Comprobar que las seis tareas (T1 a T6) se entienden sin explicaciones adicionales, incluidas las que hará la clase.
 4. Comprobar que las metas de tiempo son realistas.
 5. Comprobar que la hoja de observación permite registrar todo lo que ocurre.
 6. Registrar los ajustes al protocolo (versión 1 → versión 2) y los hallazgos preliminares que se entregan al G6.
@@ -60,8 +60,10 @@ Ver [03-tareas.md](03-tareas.md).
 
 | Momento | Tareas | Quién las hace |
 |---|---|---|
-| Pilotaje (antes del 17/11) | T2 → T3 → T4 (armar, modificar y confirmar un pedido) | P1, P2 y P3 |
+| Pilotaje (antes del 17/11) | T1 → T6: consultar (T1), armar, modificar y confirmar un pedido (T2 a T4) y consultar (T5 y T6) | P1, P2 y P3 |
 | Exposición (17/11) | T1, T5 y T6 (consultar información) | Un compañero en la demostración en vivo y los demás grupos en la actividad de clase |
+
+Al principio el pilotaje usaba solo T2, T3 y T4. Como CaféU no comparte datos entre usuarios, el 10/11/2026 se amplió a las seis tareas para validar también las que hará la clase.
 
 ## 6. Métricas y definiciones
 | Métrica | Dimensión (ISO 9241-11) | Cómo se calcula |
@@ -74,7 +76,7 @@ Ver [03-tareas.md](03-tareas.md).
 **Reglas fijadas antes de la prueba:**
 - **Éxito:** *Sí* = la completa sin ayuda. *Con ayuda* = la completa después de la pista permitida. *No* = no la completa o abandona. Solo "Sí" cuenta como éxito.
 - **Error:** acción que no acerca al resultado esperado (por ejemplo, entrar a un producto equivocado o buscar sin resultados). Es *crítico* si impide completar la tarea y *no crítico* si el usuario se recupera solo.
-- **Tiempo máximo:** el doble de la meta (T2 y T3: 2 min; T4: 3 min). Al superarlo, el moderador termina la tarea y registra "No".
+- **Tiempo máximo:** el doble de la meta (T1, T2, T3 y T5: 2 min; T4 y T6: 3 min). Al superarlo, el moderador termina la tarea y registra "No".
 
 ## 7. Roles
 Los roles cambian según el momento, porque en el pilotaje el usuario **no puede** ser un integrante del G5.
@@ -89,11 +91,11 @@ Los roles cambian según el momento, porque en el pilotaje el usuario **no puede
 
 **Regla del moderador:** no ayudar ni sugerir dónde tocar. Solo puede dar la pista permitida definida en [03-tareas.md](03-tareas.md).
 
-## 8. Procedimiento de cada sesión (unos 15 minutos)
+## 8. Procedimiento de cada sesión (unos 20 minutos)
 1. Bienvenida: "se evalúa la aplicación, no a usted" (1 min).
 2. Lectura del consentimiento ([02-consentimiento-informado.md](02-consentimiento-informado.md)) y aceptación verbal; se pregunta si acepta la grabación de pantalla (2 min).
 3. El prototipo ya está abierto en la pantalla **Inicio** con el pedido vacío.
-4. Tareas T2, T3 y T4 en orden, con registro en la hoja ([04-hoja-de-observacion.md](04-hoja-de-observacion.md)) (3,5 min como meta, hasta 7 como máximo).
+4. Tareas T1 a T6 en orden, con registro en la hoja ([04-hoja-de-observacion.md](04-hoja-de-observacion.md)) (7 min como meta, hasta 14 como máximo).
 5. Cuestionario SUS (3 min).
 6. Cierre: "¿qué fue lo más confuso y qué funcionó mejor?" (2 min).
 7. Reinicio del prototipo antes del siguiente participante (ver [05-guia-del-pilotaje.md](05-guia-del-pilotaje.md)).
@@ -129,7 +131,11 @@ Los datos se registran en `resultados/` y el resumen va aquí. No se inventan da
 
 | Qué se observó | Ajuste al protocolo (v1 → v2) |
 |---|---|
-| | |
+| Ensayo previo (10/11, 20:44): solo T1 se cronometró en vivo; los demás tiempos se estimaron | Esa corrida no cuenta como dato. Todos los tiempos se toman en vivo con cronómetro, desde que termina la lectura de la tarea |
+| P1 no pertenece al perfil (mayor de 50 años, poca experiencia con apps) | Se conservan sus datos y se reportan aparte. P2 y P3 deben cumplir el perfil (estudiantes) |
+| En T3 con P1 se dio una pista distinta de la permitida ("fíjese dentro del detalle del producto") | Llevar la pista escrita en la hoja y leerla textual. Si se da otra, registrarlo como desviación |
+| P1 pidió repetir T2 y T4 (T4 tiene tres pasos) | [Pendiente de P2 y P3] Si se repite, en la v2 se entrega la tarea también escrita en una tarjeta |
+| La sesión de P1 duró 22 min (criterio: 20 min o menos) | [Pendiente de P2 y P3] Si se repite, ajustar la duración anunciada en el consentimiento |
 
 **Hallazgos preliminares para el G6:** se listan en `resultados/` con la tarea, la evidencia y la heurística posiblemente violada. El G6 les asigna la severidad final (1 cosmético a 4 crítico) y construye el backlog.
 

@@ -52,7 +52,7 @@
 
 ### T7. ¿Cómo saben que las tareas son representativas del uso real?
 
-**Respuesta sugerida:** las seis tareas cubren lo que un estudiante hace en CaféU: consultar información (horario en T1, productos por categoría en T5, precio por cantidad en T6) y armar, modificar y confirmar un pedido (T2, T3 y T4). El pilotaje usa T2, T3 y T4 porque son el recorrido central y las únicas que cambian datos; además, son las que se probaron en el APE 4 con la versión v3, lo que permite comparar. Reconocemos que la prueba solo observa lo que las tareas recorren; por eso la evaluación heurística amplía la cobertura al resto de la interfaz.
+**Respuesta sugerida:** las seis tareas cubren lo que un estudiante hace en CaféU: consultar información (horario en T1, productos por categoría en T5, precio por cantidad en T6) y armar, modificar y confirmar un pedido (T2, T3 y T4). El pilotaje aplica las seis: T2 a T4 son el recorrido central (y se parecen a las que se probaron en el APE 4 con la versión v3, lo que permite comparar), y T1, T5 y T6 son las que hará la clase, así que también se validan antes. Reconocemos que la prueba solo observa lo que las tareas recorren; por eso la evaluación heurística amplía la cobertura al resto de la interfaz.
 
 ### T9. ¿Por qué evaluaron CaféU y no el Usability Test Dashboard 2.0?
 
