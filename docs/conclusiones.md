@@ -6,7 +6,7 @@
 [COMPLETAR]
 
 ## 2. Respuesta a la pregunta de evaluación
-¿En qué medida el Usability Test Dashboard 2.0 permite a un evaluador nuevo completar sus tareas principales con eficacia, eficiencia y satisfacción, y qué problemas lo impiden?
+¿En qué medida el prototipo CaféU permite a un estudiante nuevo armar, modificar y confirmar un pedido con eficacia, eficiencia y satisfacción, y qué problemas lo impiden?
 
 [COMPLETAR]
 

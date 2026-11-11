@@ -10,7 +10,7 @@ La norma ISO 9241-11:2018 define la usabilidad como el grado en que un sistema, 
 - **Eficiencia:** recursos invertidos (tiempo, esfuerzo) en relación con el resultado obtenido.
 - **Satisfacción:** respuestas físicas, cognitivas y emocionales del usuario frente al uso.
 
-La definición es relativa: una interfaz no es usable en abstracto, sino para ciertos usuarios, ciertas tareas y cierto contexto. En este proyecto los usuarios son evaluadores nuevos (estudiantes de Software que no participaron en el desarrollo), las tareas son seis tareas del flujo del Usability Test Dashboard 2.0 y el contexto de uso se describe en el README.
+La definición es relativa: una interfaz no es usable en abstracto, sino para ciertos usuarios, ciertas tareas y cierto contexto. En este proyecto los usuarios son estudiantes universitarios que no participaron en el diseño, las tareas son seis tareas del flujo de pedido del prototipo CaféU y el contexto de uso es pedir en la cafetería antes de llegar, descrito en el README.
 
 ### 1.2 Verificación vs. validación
 
@@ -26,7 +26,7 @@ Una interfaz puede superar la verificación (no tiene fallos y hace lo que dice 
 - **Formativa:** se realiza para descubrir problemas y orientar mejoras. Su producto principal son hallazgos cualitativos.
 - **Sumativa:** se realiza para medir o certificar el nivel de usabilidad, a menudo comparándolo con un criterio o con otro sistema. Su producto principal son métricas con validez estadística.
 
-Este proyecto es principalmente **formativo**. Las métricas se usan para describir y respaldar los hallazgos, no para certificar estadísticamente el Dashboard 2.0.
+Este proyecto es principalmente **formativo**. Las métricas se usan para describir y respaldar los hallazgos, no para certificar estadísticamente el prototipo CaféU.
 
 ### 1.4 Métodos analíticos vs. empíricos
 
@@ -60,7 +60,7 @@ El SUS (Brooke, 1996) es un cuestionario de 10 ítems con escala Likert de 5 pun
 - El puntaje **no es un porcentaje**. Un SUS de 68 no significa "68 % usable".
 - El promedio de referencia reportado en la literatura es de aproximadamente **68** (Sauro y Lewis, 2016). Bangor, Kortum y Miller (2009) proponen además una escala adjetiva (p. ej., "aceptable", "bueno", "excelente") para facilitar la interpretación.
 - Tullis y Stetson (2004) observaron que el SUS produce resultados consistentes con muestras relativamente pequeñas (alrededor de 12–14 participantes). Con menos participantes, el puntaje debe interpretarse como indicativo.
-- Si se aplica una versión en español, debe declararse su fuente: [COMPLETAR].
+- Si se aplica una versión en español, debe declararse su fuente. En este proyecto se usa una traducción del grupo a partir del original de Brooke (1996); existe una versión en español validada (Sevilla-González et al., 2020) cuya redacción exacta no se usó, y se declara como limitación (ver [04-hoja-de-observacion.md](../evidencias/04-hoja-de-observacion.md)).
 
 ---
 
@@ -68,18 +68,18 @@ El SUS (Brooke, 1996) es un cuestionario de 10 ítems con escala Likert de 5 pun
 
 Nielsen y Molich (1990) propusieron la evaluación heurística, y Nielsen (1994) refinó el conjunto de heurísticas a partir del análisis factorial de 249 problemas de usabilidad.
 
-| # | Heurística | Descripción | Ejemplo de pregunta guía (aplicada al Dashboard 2.0) |
+| # | Heurística | Descripción | Ejemplo de pregunta guía (aplicada a CaféU) |
 |---|---|---|---|
-| 1 | Visibilidad del estado del sistema | El sistema mantiene informado al usuario sobre lo que ocurre, con retroalimentación oportuna. | ¿El evaluador sabe en qué paso del asistente está y si su borrador se guardó? |
-| 2 | Coincidencia entre el sistema y el mundo real | Usa el lenguaje y los conceptos del usuario, no jerga técnica, y sigue convenciones del mundo real. | ¿Términos como "síntesis" o "Sprint Backlog" son comprensibles para un evaluador nuevo? |
-| 3 | Control y libertad del usuario | Ofrece "salidas de emergencia" claras para deshacer o abandonar acciones no deseadas. | ¿Puede cancelar o corregir una acción sin perder trabajo? |
-| 4 | Consistencia y estándares | Elementos iguales se ven y se comportan igual, y se siguen las convenciones de la plataforma y de la industria. | ¿Los botones y la navegación son coherentes entre las secciones del Dashboard? |
-| 5 | Prevención de errores | Evitar que el error ocurra es mejor que un buen mensaje de error: se eliminan las condiciones propensas a error o se pide confirmación. | ¿Se advierte antes de una acción irreversible? |
-| 6 | Reconocer antes que recordar | Se minimiza la carga de memoria haciendo visibles los elementos, las acciones y las opciones. | ¿El Dashboard muestra la información o el evaluador debe recordar dónde estaba? |
-| 7 | Flexibilidad y eficiencia de uso | Ofrece aceleradores para usuarios expertos sin perjudicar a los novatos. | ¿Hay accesos directos a lo que se usa con más frecuencia? |
-| 8 | Diseño estético y minimalista | No incluye información irrelevante; cada elemento extra compite con el relevante. | ¿La información prioritaria se distingue de la secundaria? |
-| 9 | Ayudar a reconocer, diagnosticar y recuperarse de errores | Los mensajes de error usan lenguaje claro, indican el problema y sugieren una solución. | ¿El mensaje de error explica qué pasó y qué hacer? |
-| 10 | Ayuda y documentación | Si se necesita ayuda, es fácil de encontrar, está centrada en la tarea y ofrece pasos concretos. | ¿Existe ayuda accesible en el punto donde se necesita? |
+| 1 | Visibilidad del estado del sistema | El sistema mantiene informado al usuario sobre lo que ocurre, con retroalimentación oportuna. | ¿El estudiante sabe que el producto se agregó y cuántos productos lleva en su pedido? |
+| 2 | Coincidencia entre el sistema y el mundo real | Usa el lenguaje y los conceptos del usuario, no jerga técnica, y sigue convenciones del mundo real. | ¿Los nombres de productos, precios y botones usan el lenguaje de un estudiante en la cafetería? |
+| 3 | Control y libertad del usuario | Ofrece "salidas de emergencia" claras para deshacer o abandonar acciones no deseadas. | ¿Puede quitar un producto o volver al menú sin perder el resto de su pedido? |
+| 4 | Consistencia y estándares | Elementos iguales se ven y se comportan igual, y se siguen las convenciones de la plataforma y de la industria. | ¿"Mi pedido" y los botones de volver se ven y se comportan igual en todas las pantallas? |
+| 5 | Prevención de errores | Evitar que el error ocurra es mejor que un buen mensaje de error: se eliminan las condiciones propensas a error o se pide confirmación. | ¿Se pide confirmación antes de quitar un producto o de confirmar el pedido? |
+| 6 | Reconocer antes que recordar | Se minimiza la carga de memoria haciendo visibles los elementos, las acciones y las opciones. | ¿El estudiante ve el precio y la categoría sin tener que entrar al detalle de cada producto? |
+| 7 | Flexibilidad y eficiencia de uso | Ofrece aceleradores para usuarios expertos sin perjudicar a los novatos. | ¿Hay atajos, como el buscador, los filtros por categoría o el aviso "Ver pedido"? |
+| 8 | Diseño estético y minimalista | No incluye información irrelevante; cada elemento extra compite con el relevante. | ¿El producto, el precio y el total se distinguen de la información decorativa? |
+| 9 | Ayudar a reconocer, diagnosticar y recuperarse de errores | Los mensajes de error usan lenguaje claro, indican el problema y sugieren una solución. | Si la búsqueda no encuentra nada, ¿el mensaje explica qué hacer? |
+| 10 | Ayuda y documentación | Si se necesita ayuda, es fácil de encontrar, está centrada en la tarea y ofrece pasos concretos. | ¿Se explica cómo y dónde recoger el pedido? |
 
 ---
 

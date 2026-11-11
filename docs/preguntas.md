@@ -16,7 +16,7 @@
 - Un botón que ejecuta bien su acción, pero cuya etiqueta no describe lo que hace.
 - Un sistema que guarda correctamente una acción, pero no muestra ninguna confirmación, por lo que el usuario la repite.
 
-**Cierre sugerido:** el Dashboard 2.0 pasó las pruebas técnicas del propio equipo (verificación). Al terminar el laboratorio, retomar la pregunta y responderla con la evidencia obtenida en la validación con evaluadores nuevos: [COMPLETAR: hallazgo concreto que ilustre la respuesta].
+**Cierre sugerido:** CaféU funciona: navega, calcula totales y genera el número de pedido (verificación). Al terminar el laboratorio, retomar la pregunta y responderla con la evidencia obtenida en la validación con estudiantes nuevos: [COMPLETAR después del pilotaje: hallazgo concreto que ilustre la respuesta].
 
 ---
 
@@ -24,9 +24,9 @@
 
 ### T1. ¿Cuántos usuarios probaron y por qué es suficiente?
 
-**Respuesta sugerida:** probamos con [COMPLETAR: n] participantes. Nuestro estudio es **formativo**: busca descubrir problemas, no certificar estadísticamente el Dashboard 2.0. Según Nielsen y Landauer (1993), alrededor de cinco usuarios bastan para detectar la mayoría de los problemas frecuentes en este tipo de estudio. Reconocemos dos límites. Primero, Faulkner (2003) mostró una alta variabilidad entre muestras pequeñas. Segundo, nuestras métricas cuantitativas son **descriptivas** y no generalizables; un estudio sumativo requeriría alrededor de 20 participantes. Por eso no afirmamos porcentajes poblacionales y combinamos la prueba con una evaluación heurística, que no depende del tamaño de la muestra de usuarios.
+**Respuesta sugerida:** en el pilotaje probamos con 3 participantes (P1, P2 y P3). Nuestro estudio es **formativo** y, además, es un **pilotaje**: busca validar el protocolo y descubrir problemas, no certificar estadísticamente el prototipo CaféU. Según Nielsen y Landauer (1993), alrededor de cinco usuarios bastan para detectar la mayoría de los problemas frecuentes en este tipo de estudio. Reconocemos dos límites. Primero, Faulkner (2003) mostró una alta variabilidad entre muestras pequeñas. Segundo, nuestras métricas cuantitativas son **descriptivas** y no generalizables; un estudio sumativo requeriría alrededor de 20 participantes. Por eso no afirmamos porcentajes poblacionales y combinamos la prueba con una evaluación heurística, que no depende del tamaño de la muestra de usuarios.
 
-**Evidencia a mostrar:** [COMPLETAR: número de participantes, perfil y problemas que se repitieron entre participantes]
+**Evidencia a mostrar:** 3 estudiantes que no diseñaron CaféU ni participaron en la prueba del APE 4; [COMPLETAR después del pilotaje: problemas que se repitieron entre participantes].
 
 ### T2. ¿Por qué eligieron la evaluación heurística y la prueba con usuarios, y no otros métodos?
 
@@ -36,15 +36,15 @@
 
 **Respuesta sugerida:** aplicamos el procedimiento estándar de Brooke (1996): impares = puntaje − 1; pares = 5 − puntaje; suma × 2,5, con un rango de 0 a 100. El puntaje no es un porcentaje. Lo comparamos con el promedio de referencia de aproximadamente 68 (Sauro y Lewis, 2016). Tullis y Stetson (2004) reportan que el SUS se estabiliza con alrededor de 12–14 participantes; con nuestra muestra lo interpretamos como un indicador y no como una medida concluyente.
 
-**Evidencia a mostrar:** [COMPLETAR: puntaje SUS obtenido, versión en español utilizada y su fuente]
+**Evidencia a mostrar:** [COMPLETAR después del pilotaje: puntaje SUS de P1, P2 y P3 y promedio]. Versión usada: traducción del grupo a partir de Brooke (1996); la versión validada en español es la de Sevilla-González et al. (2020).
 
 ### T4. ¿Cómo definieron qué es "éxito" y qué es "error"?
 
-**Respuesta sugerida:** los definimos **antes** de la prueba para no ajustarlos a los resultados. Éxito: [COMPLETAR: criterio por tarea]. Error: [COMPLETAR: definición operativa]. Distinguimos los errores críticos (impiden completar la tarea) de los no críticos (el usuario se recupera).
+**Respuesta sugerida:** los definimos **antes** de la prueba para no ajustarlos a los resultados. **Éxito:** cada tarea tiene un estado final observable (por ejemplo, en T4 se ve "¡Pedido confirmado!" con 2 cafés por $3,00 y el usuario dice #CU-104), y solo cuenta si lo logra sin ayuda; ver [03-tareas.md](../evidencias/03-tareas.md). **Error:** toda acción que no acerca al resultado esperado, como entrar a un producto equivocado o buscar sin resultados. Distinguimos los errores críticos (impiden completar la tarea) de los no críticos (el usuario se recupera).
 
 ### T5. Si usaron pensamiento en voz alta, ¿eso no altera el tiempo en tarea?
 
-**Respuesta sugerida:** sí, verbalizar tiende a alargar los tiempos. [COMPLETAR según lo que haya hecho el grupo: (a) no se usó pensamiento en voz alta durante las tareas cronometradas; o (b) se usó en todas las sesiones por igual, por lo que los tiempos son comparables entre participantes pero no con un uso real, y lo declaramos como limitación.]
+**Respuesta sugerida:** sí, verbalizar tiende a alargar los tiempos. Lo usamos **en todas las sesiones por igual**, así que los tiempos son comparables entre participantes, pero no con un uso real en la cafetería. Lo declaramos como limitación y por eso las metas (60 a 90 s) dejan margen frente a los 17 a 26 s observados en el APE 4.
 
 ### T6. ¿La severidad no es subjetiva?
 
@@ -52,7 +52,15 @@
 
 ### T7. ¿Cómo saben que las tareas son representativas del uso real?
 
-**Respuesta sugerida:** las seis tareas (T1 a T6) cubren el flujo principal del Dashboard: acceder, crear una prueba, registrar una observación con apoyo de IA, sintetizar y generar el Sprint Backlog, consultar el tablero SCRUM y revisar Antes/Después. El piloto usa T2, T3 y T4 por ser el recorrido central. [COMPLETAR: criterio adicional si lo hay]. Reconocemos que la prueba solo observa lo que las tareas recorren; por eso la evaluación heurística amplía la cobertura al resto de la interfaz.
+**Respuesta sugerida:** las seis tareas cubren lo que un estudiante hace en CaféU: consultar información (horario en T1, productos por categoría en T5, precio por cantidad en T6) y armar, modificar y confirmar un pedido (T2, T3 y T4). El pilotaje usa T2, T3 y T4 porque son el recorrido central y las únicas que cambian datos; además, son las que se probaron en el APE 4 con la versión v3, lo que permite comparar. Reconocemos que la prueba solo observa lo que las tareas recorren; por eso la evaluación heurística amplía la cobertura al resto de la interfaz.
+
+### T9. ¿Por qué evaluaron CaféU y no el Usability Test Dashboard 2.0?
+
+**Respuesta sugerida:** porque la matriz pide evaluar **el prototipo** del proyecto, y la cadena de los APE es APE 4 (prototipo de CaféU en Figma) → APE 5 (paso a HTML) → APE 6 (evaluación de ese prototipo con usuarios). Al revisar los APE anteriores corregimos el rumbo y lo dejamos documentado en el Issue #9. Eso también es parte del método: validar que evaluamos el objeto correcto antes de recoger datos.
+
+### T10. ¿Por qué no presentan el backlog priorizado?
+
+**Respuesta sugerida:** porque al G5 le corresponden las Fases 1 y 2 (planificación y pilotaje). La severidad final, la triangulación y el backlog priorizado son las Fases 3 y 4, que construye el G6 con nuestros datos y nuestras evaluaciones heurísticas.
 
 ### T8. Si la heurística y los usuarios no coinciden, ¿a quién le creen?
 
@@ -73,7 +81,7 @@ Si un problema no tiene evidencia de usuarios, lo declaramos como potencial y su
 
 ### O2. "Los participantes son compañeros de clase; la muestra está sesgada."
 
-**Respuesta sugerida:** los participantes son evaluadores nuevos, estudiantes de Software que no participaron en el desarrollo del Dashboard, por lo que no conocen el flujo de memoria como el equipo. Reconocemos que comparten carrera y nivel de experiencia con nosotros, así que los resultados no se generalizan a otros perfiles. Lo declaramos como limitación y proponemos ampliar la muestra a otras carreras o a docentes.
+**Respuesta sugerida:** los participantes son estudiantes que no diseñaron CaféU ni participaron en la prueba del APE 4, por lo que no conocen el flujo de memoria como el equipo. Además, son usuarios reales del contexto: estudiantes que usan la cafetería universitaria. Reconocemos que comparten carrera y nivel de experiencia con nosotros, así que los resultados no se generalizan a otros perfiles. Lo declaramos como limitación y proponemos ampliar la muestra a otras carreras o a docentes.
 
 ### O3. "Ustedes no son expertos en usabilidad; la evaluación heurística no es válida."
 
@@ -81,7 +89,7 @@ Si un problema no tiene evidencia de usuarios, lo declaramos como potencial y su
 
 ### O4. "En un laboratorio la gente no se comporta como en la vida real."
 
-**Respuesta sugerida:** es una limitación conocida de la prueba de usabilidad; la presencia de observadores puede alterar el comportamiento. Para mitigarla, [COMPLETAR: p. ej., el moderador no ayudó durante las tareas, las tareas se plantearon como escenarios realistas y se usó el Dashboard 2.0 desplegado, no una maqueta]. Lo declaramos en las limitaciones.
+**Respuesta sugerida:** es una limitación conocida de la prueba de usabilidad; la presencia de observadores puede alterar el comportamiento. Para mitigarla, el moderador no ayuda durante las tareas (solo una pista definida de antemano), las tareas se plantean como situaciones reales de la cafetería y se usa el prototipo publicado y navegable, no imágenes estáticas. Aun así, es un prototipo y no hay pago ni retiro reales; lo declaramos en las limitaciones.
 
 ### O5. "Eso es cuestión de gusto, no un problema de usabilidad."
 
