@@ -114,10 +114,10 @@ Cada integrante inspecciona CaféU por separado con las 10 heurísticas de Niels
 
 | Rol | Pilotaje | Exposición (17/11) |
 |---|---|---|
-| Moderador | Carlos Ramos | Carlos Ramos |
-| Usuario | P1, P2 y P3 (externos) | Henry Lagua (demostración) |
-| Registro de métricas | Melany Cevallos | Melany Cevallos |
-| Observador | Allison Cobos | Allison Cobos |
+| Moderador | Carlos Ramos | Melany Cevallos |
+| Usuario | Participantes externos (P1 a P6) | Allison Cobos (demostración) |
+| Registro de métricas | Melany Cevallos | Carlos Ramos |
+| Observador | Allison Cobos | Henry Lagua |
 | Soporte técnico | Henry Lagua | — |
 
 Regla del moderador: no ayudar ni sugerir dónde tocar.
@@ -193,10 +193,10 @@ Pendiente (sección 12 del [plan](evidencias/01-plan-de-evaluacion.md)).
 
 | Integrante | GitHub | Rol en el laboratorio | Aporte al repositorio |
 |---|---|---|---|
-| Carlos Ramos | @carlitosgiovanniramos | Moderador | Plan de evaluación, guía del pilotaje y prototipo |
-| Henry Lagua | @Hlagua | Soporte técnico (pilotaje) / usuario (exposición) | Tareas y respuestas correctas |
-| Melany Cevallos | @SalyC15 | Registro de métricas | Hoja de observación y SUS |
-| Allison Cobos | @Itsuna18 | Observadora | Consentimiento informado |
+| Carlos Ramos | @carlitosgiovanniramos | Moderador (pilotaje) / registro de métricas (exposición) | Plan de evaluación, guía del pilotaje y prototipo |
+| Henry Lagua | @Hlagua | Soporte técnico (pilotaje) / observador (exposición) | Tareas y respuestas correctas |
+| Melany Cevallos | @SalyC15 | Registro de métricas (pilotaje) / moderadora (exposición) | Hoja de observación y SUS |
+| Allison Cobos | @Itsuna18 | Observadora (pilotaje) / usuaria (exposición) | Consentimiento informado |
 
 ## Conclusiones
 

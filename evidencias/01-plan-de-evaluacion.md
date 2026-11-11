@@ -83,10 +83,10 @@ Los roles cambian según el momento, porque en el pilotaje el usuario **no puede
 
 | Rol | Responsabilidad | Pilotaje | Exposición (17/11) |
 |---|---|---|---|
-| Moderador | Lee las tareas y conduce la sesión sin guiar | Carlos Ramos | Carlos Ramos |
-| Usuario | Hace las tareas pensando en voz alta | P1, P2 y P3 (externos) | Henry Lagua (demostración del método) |
-| Registro de métricas | Cronometra y anota éxito, tiempo y errores | Melany Cevallos | Melany Cevallos |
-| Observador | Anota frases, dudas, fricciones y posibles heurísticas | Allison Cobos | Allison Cobos |
+| Moderador | Lee las tareas y conduce la sesión sin guiar | Carlos Ramos | Melany Cevallos |
+| Usuario | Hace las tareas pensando en voz alta | Participantes externos (P1 a P6) | Allison Cobos (demostración del método) |
+| Registro de métricas | Cronometra y anota éxito, tiempo y errores | Melany Cevallos | Carlos Ramos |
+| Observador | Anota frases, dudas, fricciones y posibles heurísticas | Allison Cobos | Henry Lagua |
 | Soporte técnico | Recarga el prototipo entre participantes y controla la grabación | Henry Lagua | — |
 
 **Regla del moderador:** no ayudar ni sugerir dónde tocar. Solo puede dar la pista permitida definida en [03-tareas.md](03-tareas.md).

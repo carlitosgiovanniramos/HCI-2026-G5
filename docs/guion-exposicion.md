@@ -19,7 +19,7 @@ Duración total estimada: **unos 40 minutos**. Si el docente da menos tiempo, re
 | 8 | Métricas | **Melany** | 1:30 | El SUS no es un porcentaje: 68 es el promedio de referencia. |
 | 9 | Severidad | **Melany** | 1:30 | Frecuencia, impacto y persistencia. La severidad final la asigna el G6. |
 | 10 | Video | **Allison** | 3:00 | Reproducir de 2:10 a 4:40. Pregunta: ¿qué heurística podría violar CaféU? |
-| 11 | Demostración en vivo | **Los 4** | 5:00 | Carlos modera, **Henry es el usuario**, Melany cronometra, Allison observa. Se hacen T1 y T5. |
+| 11 | Demostración en vivo | **Los 4** | 5:00 | **Melany modera**, **Allison es la usuaria**, **Carlos cronometra** y **Henry observa**. Se hacen T1 y T5. |
 | 12 | Cuatro roles | **Henry** | 1:00 | El moderador no ayuda. |
 | 13 | Seis tareas | **Henry** | 1:00 | Pilotamos las 6; la clase hace T1, T5 o T6. |
 | 14 | Reglas antes de la prueba | **Allison** | 1:00 | Solo "Sí" cuenta como éxito. Consentimiento verbal, códigos P1 a P6, sin nombres. |
@@ -29,15 +29,18 @@ Duración total estimada: **unos 40 minutos**. Si el docente da menos tiempo, re
 | 18 | Respuesta a la pregunta inicial | **Carlos** | 2:00 | El aviso existía y se ejecutaba, pero 6 de 6 no lo vieron: funciona y aun así falla. |
 | 19 | Preguntas para G1 y G4 | Reparto de abajo | 5:00 | Escuchar la respuesta completa y usar la repregunta si es débil. |
 
-**Tiempo por integrante:** Carlos unos 14 min (incluye moderar y coordinar), Allison unos 7 min, Henry unos 5 min más la demostración como usuario y Melany unos 7 min más el cronómetro en la demostración.
+**Tiempo por integrante:** Carlos unos 14 min (incluye coordinar la actividad de la clase), Allison unos 7 min más la demostración como usuaria, Henry unos 5 min más la observación en la demostración y Melany unos 7 min más la moderación de la demostración.
+
+**Roles en la exposición (diapositiva 12):** moderadora Melany Cevallos · usuaria Allison Cobos · registro de métricas Carlos Ramos · observador Henry Lagua. En el pilotaje los roles fueron otros (moderó Carlos), y así quedó registrado en `resultados/`.
 
 ## 2. Demostración en vivo (diapositiva 11)
 
 1. Henry recarga el prototipo (F5): pantalla Inicio, "Mi pedido" en 0.
-2. Carlos lee el consentimiento corto y pide a Henry que piense en voz alta.
-3. Carlos lee T1 tal cual: "¿En qué horario atiende la cafetería?". Melany cronometra; Allison anota.
-4. Carlos lee T5: "¿Cuántos productos de comida ofrece la cafetería?".
-5. Melany dice en voz alta el resultado: éxito, tiempo y errores de cada tarea.
+2. Melany lee el consentimiento corto y pide a Allison que piense en voz alta.
+3. Melany lee T1 tal cual: "¿En qué horario atiende la cafetería?". Carlos cronometra; Henry anota frases y dudas.
+4. Melany lee T5: "¿Cuántos productos de comida ofrece la cafetería?".
+5. Carlos dice en voz alta el resultado: éxito, tiempo y errores de cada tarea.
+6. Regla para Melany: no ayudar ni sugerir dónde tocar; solo la pista textual si hace falta.
 
 **Respaldo si falla internet:** abrir `prototipos/prototipo.html` (el flujo funciona, solo faltan las fotos).
 
