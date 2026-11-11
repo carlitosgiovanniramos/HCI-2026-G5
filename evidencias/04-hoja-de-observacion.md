@@ -13,7 +13,7 @@
 - **Éxito:** *Sí* = sin ayuda. *Con ayuda* = después de la pista permitida. *No* = no la completa, abandona o supera el tiempo máximo. Solo "Sí" cuenta como éxito.
 - **Tiempo:** desde que el moderador termina de leer la tarea hasta que el usuario la completa o abandona.
 - **Error crítico:** impide completar la tarea. **Error no crítico:** el usuario se equivoca pero se recupera solo.
-- **Tiempo máximo:** T2 2 min, T3 2 min y T4 3 min.
+- **Tiempo máximo:** T1, T2, T3 y T5: 2 min · T4 y T6: 3 min.
 - **Pista** (una vez por tarea, si la pide o tras 30 s sin avanzar): "Vuelve a leer la tarea y revisa las opciones que tienes en pantalla." → se registra *Con ayuda*.
 
 ---
@@ -28,11 +28,14 @@
 ### Registro por tarea
 | Tarea | Meta | ¿Éxito? (Sí / Con ayuda / No) | Tiempo (mm:ss) | Errores críticos | Errores no críticos | ¿Pidió repetir la tarea? (Sí / No) | Observaciones |
 |---|---|---|---|---|---|---|---|
+| T1 · Decir el horario de atención (L-V 7:00 – 19:00) | 60 s | | | | | | |
 | T2 · Agregar un sánduche de queso al pedido | 60 s | | | | | | |
 | T3 · Agregar también dos cafés americanos | 60 s | | | | | | |
 | T4 · Quitar el sánduche, confirmar y decir el número de pedido (#CU-104) | 90 s | | | | | | |
+| T5 · Decir cuántos productos de comida hay (3) | 60 s | | | | | | |
+| T6 · Decir cuánto cuestan 3 croissants ($5,25) | 90 s | | | | | | |
 
-*(En la exposición del 17/11 se usan las filas T1, T5 y T6, con las respuestas de [03-tareas.md](03-tareas.md).)*
+*En T1, T5, T6 y T4 anotar también la respuesta que dio el participante. Respuestas correctas en [03-tareas.md](03-tareas.md).*
 
 ### Notas de la persona observadora (frases textuales, dudas, fricciones)
 | Tarea | Qué dijo o hizo el usuario (textual) | Posible heurística de Nielsen (1 a 10) |
@@ -45,7 +48,7 @@
 *Heurísticas: 1 Visibilidad del estado · 2 Relación con el mundo real · 3 Control y libertad · 4 Consistencia y estándares · 5 Prevención de errores · 6 Reconocer antes que recordar · 7 Flexibilidad y eficiencia · 8 Diseño estético y minimalista · 9 Ayudar a reconocer y recuperarse de errores · 10 Ayuda y documentación.*
 
 ### Cuestionario SUS (1 = totalmente en desacuerdo, 5 = totalmente de acuerdo)
-Lo responde el participante al terminar las tres tareas, marcando una sola opción por fila.
+Lo responde el participante al terminar las seis tareas, marcando una sola opción por fila.
 
 | # | Ítem | 1 | 2 | 3 | 4 | 5 |
 |---|---|---|---|---|---|---|
@@ -89,9 +92,12 @@ Lo responde el participante al terminar las tres tareas, marcando una sola opci�
 ## Resumen del pilotaje (se llena al terminar las 3 sesiones)
 | Tarea | Participantes | Éxitos (Sí) | Tasa de éxito | Con ayuda | Tiempo mediano | Errores críticos | Errores no críticos |
 |---|---|---|---|---|---|---|---|
+| T1 | | | | | | | |
 | T2 | | | | | | | |
 | T3 | | | | | | | |
 | T4 | | | | | | | |
+| T5 | | | | | | | |
+| T6 | | | | | | | |
 
 | Participante | SUS |
 |---|---|
