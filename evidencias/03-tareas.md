@@ -1,61 +1,60 @@
-# Tareas de la prueba · Usability Test Dashboard 2.0
+# Tareas de la prueba · Prototipo CaféU
 
 **Responsable de este documento:** Henry Lagua
-**Acceso:** https://hci-proyecto-hazel.vercel.app/ → botón "Entrar como evaluador de demostración"
+**Prototipo:** https://false-wired-67481015.figma.site (respaldo: [`prototipos/prototipo.html`](../prototipos/prototipo.html))
 
-El moderador lee cada tarea **tal como está escrita**. No explica dónde hacer clic.
+El moderador lee cada tarea **tal como está escrita**. No explica dónde tocar.
 
 | ID | Escenario que se le lee al usuario | Meta | Tiempo máximo | Criterio de éxito | Uso |
 |---|---|---|---|---|---|
-| T1 | "Entre al sistema como evaluador de demostración y dígame cuál es la tasa de éxito de la prueba 'Portal Académico'." | 60 s | 2 min | Dice el valor de la tabla de respuestas | Exposición |
-| T2 | "Cree una prueba llamada 'Sistema de biblioteca' con una tarea y llegue a la guía de moderación." | 4 min | 8 min | La prueba existe con una tarea y el usuario ve la guía de moderación | **Pilotaje** |
-| T3 | "Registre una observación y aplique la sugerencia de la IA." | 3 min | 6 min | La observación queda registrada en la prueba 'Sistema de biblioteca' y la sugerencia se aplicó | **Pilotaje** |
-| T4 | "Complete la síntesis, finalice la prueba y genere el Sprint Backlog." | 3 min | 6 min | La prueba figura como finalizada y se ve el Sprint Backlog generado | **Pilotaje** |
-| T5 | "En el Sprint 4 del tablero SCRUM, cuente las tareas en 'Terminado' y dígame quién tiene el 'Generador de informe formal PDF'." | 3 min | 6 min | Dice la cuenta y el responsable de la tabla de respuestas | Exposición |
-| T6 | "Consulte cuánto mejoró la tasa de éxito en Antes/Después." | 60 s | 2 min | Dice el valor de la tabla de respuestas | Exposición |
+| T1 | "¿En qué horario atiende la cafetería?" | 60 s | 2 min | Dice "lunes a viernes, de 7:00 a 19:00" | Exposición |
+| T2 | "Agrega un sánduche de queso a tu pedido." | 60 s | 2 min | "Mi pedido" contiene 1 Sánduche de queso | **Pilotaje** |
+| T3 | "Agrega también dos cafés americanos." | 60 s | 2 min | "Mi pedido" contiene 1 Sánduche de queso y 2 Café americano (total $5,75) | **Pilotaje** |
+| T4 | "Ya no quieres el sánduche. Quítalo, confirma tu pedido y dime tu número de pedido." | 90 s | 3 min | Se ve "¡Pedido confirmado!" con 2 Café americano ($3,00) y el usuario dice **#CU-104** | **Pilotaje** |
+| T5 | "¿Cuántos productos de comida ofrece la cafetería?" | 60 s | 2 min | Dice **3** | Exposición |
+| T6 | "¿Cuánto pagarías por 3 croissants?" | 90 s | 3 min | Dice **$5,25** | Exposición |
 
-**Orden del pilotaje:** T2 → T3 → T4. T3 y T4 dependen de la prueba creada en T2, por eso no se pueden cambiar de orden.
+**Orden del pilotaje:** T2 → T3 → T4. T3 y T4 parten del pedido que dejó la tarea anterior, por eso no se pueden cambiar de orden.
 
-**Justificación:** las tareas recorren el flujo central del Dashboard (acceder, crear, observar, sintetizar y consultar resultados) y combinan tareas de **búsqueda de información** (T1, T5 y T6) con tareas de **creación y edición** (T2, T3 y T4).
+**Justificación:**
+- Las tareas del pilotaje recorren el flujo central de CaféU: **armar** un pedido (T2), **modificarlo** agregando productos (T3), **quitar** un producto y **confirmar** (T4).
+- Las tareas de la exposición son de **consulta** (T1, T5 y T6): son cortas, no dependen unas de otras y cada grupo de la clase puede hacerlas en su propio celular o laptop.
+- **Metas:** en el APE 4, P01 y P02 hicieron tareas parecidas en la versión v3 en 17 a 26 s. Las metas de 60 a 90 s dan margen a un usuario nuevo; el pilotaje comprueba si son realistas.
 
-## Respuestas correctas (T1, T5 y T6)
-Se verifican en el Dashboard **el mismo día de la sesión**, después del reinicio, porque todos los usuarios de demostración comparten los mismos datos.
+## Respuestas correctas
+Salen del contenido fijo del prototipo (código fuente y pantallas publicadas), así que no cambian entre sesiones.
 
-| Tarea | Respuesta correcta | Verificado el | Por |
-|---|---|---|---|
-| T1 · Tasa de éxito de "Portal Académico de Matrícula UTA" | **75 %** (pestaña Resultados) | 10/11/2026 | Carlos Ramos |
-| T5 · Tareas en "Terminado" del Sprint 4 | **8** (Tablero SCRUM → Sprint 4) | 10/11/2026 | Carlos Ramos |
-| T5 · Responsable del "Generador de informe formal PDF con indicadores KPI" (RF.EXP.02) | **Melany Cevallos** | 10/11/2026 | Carlos Ramos |
-| T6 · Mejora de la tasa de éxito en Antes/Después | **+36 puntos: de 58 % (versión 1.0) a 94 % (versión 2.0)**. La pantalla lo muestra como "+36% Mejora" | 10/11/2026 | Carlos Ramos |
+| Tarea | Respuesta correcta | Dónde está en el prototipo |
+|---|---|---|
+| T1 | **Lunes a viernes · 7:00 – 19:00** | Pantalla Inicio, recuadro "Horario de atención" |
+| T3 | Pedido de **$5,75** (2,75 + 2 × 1,50) | Mi pedido → Total |
+| T4 | **#CU-104** y total **$3,00** | Pantalla "¡Pedido confirmado!" → "Número de pedido". Es #CU-104 solo si es el primer pedido desde que se cargó la página |
+| T5 | **3** (Sánduche de queso, Croissant y Empanada de pollo) | Menú → filtro "Comida" → "3 productos" |
+| T6 | **$5,25** (3 × $1,75) | Menú → Croissant → cantidad 3 → "Agregar al pedido · $5.25" |
 
-**Respuestas aceptadas en T6:** "36 %", "+36", "36 puntos" o "de 58 a 94". Ojo: son 36 **puntos porcentuales**, no un 36 % relativo (la mejora relativa sería del 62 %).
-
-Henry vuelve a comprobar estos valores el día del pilotaje y el día de la exposición.
-
-**Estado inicial del Dashboard (para comprobar el reinicio):** en Resultados, "Pruebas realizadas: 1" (solo "Portal Académico de Matrícula UTA", 21/9/2026) y "Planificadas: 0". En el Sprint 4: Por hacer 0, En progreso 0, En revisión 0, Terminado 8. Si después del reinicio no se ve exactamente esto, algo quedó del participante anterior.
+**Respuestas aceptadas:** T1 también vale "de 7 a 7 entre semana". T6 también vale "5,25" o "cinco veinticinco". En T4 el número debe ser exacto.
 
 ## Pista permitida
-- **Texto exacto (el mismo para todas las tareas):** "Vuelva a leer la tarea y revise las opciones que tiene en pantalla."
-- **Cuándo se da:** solo si el usuario la pide o si pasa **1 minuto sin avanzar**.
+- **Texto exacto (el mismo para todas las tareas):** "Vuelve a leer la tarea y revisa las opciones que tienes en pantalla."
+- **Cuándo se da:** solo si el usuario la pide o si pasan **30 segundos sin avanzar**.
 - **Cuántas veces:** una vez por tarea.
 - **Efecto:** si el usuario completa la tarea después de la pista, se registra *Con ayuda* y no cuenta como éxito.
-- **Prohibido:** señalar la pantalla, nombrar botones o menús, o decir "casi" o "por ahí".
+- **Prohibido:** señalar la pantalla, nombrar botones o pantallas ("Menú", "Mi pedido", "Quitar"), o decir "casi" o "por ahí".
 
 ## Reinicio entre participantes
-**Por qué hace falta:** el botón "Entrar como evaluador de demostración" usa **un solo usuario fijo** y un solo proyecto. Lo que crea un participante lo ve el siguiente, y lo vería la clase el 17/11.
+El prototipo guarda el pedido **solo en la memoria del navegador**. Al recargar la página todo vuelve al estado inicial y el número de pedido vuelve a #CU-104.
 
 Lo hace el soporte técnico (Henry) al terminar cada sesión:
-1. En el Dashboard, eliminar la prueba "Sistema de biblioteca" (botón **Eliminar** → **Sí, eliminar**).
-2. Comprobar que no quedó ninguna otra prueba ni tarea nueva creada durante la sesión. Si quedó, eliminarla.
-3. Cerrar sesión desde la aplicación. Esto también borra el borrador guardado en el navegador.
-4. Cerrar la ventana y abrir una **ventana de incógnito nueva** de Chrome para el siguiente participante.
-5. Volver a comprobar que las respuestas de T1, T5 y T6 no cambiaron.
+1. Detener la grabación, si la hubo.
+2. Recargar la página (**F5**).
+3. Comprobar el **estado inicial**: pantalla **Inicio**, botón "Mi pedido" con **0** y ningún aviso en pantalla.
 
-**Riesgo detectado en T6:** la pantalla Antes/Después tiene dos partes: la matriz fija del estudio (58 % → 94 %) y una comparación "calculada en vivo". La parte en vivo solo aparece cuando hay **dos o más pruebas con observaciones**. Hoy hay una sola, así que muestra el mensaje "Se necesitan al menos dos planes de prueba…". Si la prueba "Sistema de biblioteca" (creada en T2, con la observación de T3) **no se elimina**, aparecerá una segunda comparación con otros números y T6 se volverá ambigua para la clase.
+**Por qué es obligatorio:** si no se recarga, el siguiente participante vería el pedido anterior y en T4 obtendría #CU-105 en lugar de #CU-104.
 
 ## Comprobación antes del pilotaje (ensayo interno)
 Antes de recibir a P1, el grupo hace una vez T2 → T3 → T4 completo y después:
-- vuelve a revisar T1, T5 y T6, para comprobar que generar el Sprint Backlog (T4) no cambia esas respuestas;
-- aplica el reinicio y verifica que el Dashboard vuelve al estado inicial.
+- comprueba que T4 da **#CU-104** y $3,00;
+- recarga la página y verifica que el prototipo vuelve al estado inicial;
+- revisa que las imágenes cargan (si no cargan, se anota: el flujo funciona igual).
 
-Si algo cambia, se anota en la sección 12 del [plan](01-plan-de-evaluacion.md) como ajuste del protocolo.
+Si algo no funciona, se anota en la sección 12 del [plan](01-plan-de-evaluacion.md) como ajuste del protocolo.
