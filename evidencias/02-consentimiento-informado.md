@@ -5,7 +5,7 @@
 **Se usa en:** pilotaje del APE 6 (Fase 2), con los participantes P1, P2 y P3.
 
 ## Qué es esta actividad
-Estamos evaluando **CaféU**, un prototipo de aplicación web móvil para pedir en la cafetería universitaria antes de llegar. Le pediremos realizar **tres tareas** en el prototipo mientras dice en voz alta lo que piensa. Al final responderá un cuestionario corto. La sesión dura aproximadamente **15 minutos**.
+Estamos evaluando **CaféU**, un prototipo de aplicación web móvil para pedir en la cafetería universitaria antes de llegar. Le pediremos realizar **seis tareas** en el prototipo mientras dice en voz alta lo que piensa. Al final responderá un cuestionario corto. La sesión dura aproximadamente **20 minutos**.
 
 ## Lo que debe saber
 - **Se evalúa la aplicación, no a usted.** No existen respuestas correctas o incorrectas.
@@ -26,4 +26,4 @@ Estamos evaluando **CaféU**, un prototipo de aplicación web móvil para pedir 
 > **Para el repositorio:** la aceptación es verbal y se registra solo con el código. No se recogen firmas ni nombres. Si se usara una hoja con datos personales, se guarda fuera de GitHub.
 
 ## Texto que lee el moderador
-"Gracias por ayudarnos. Vamos a probar una aplicación para pedir en la cafetería, no a evaluarte a ti. Puedes parar cuando quieras. Te pediré que hagas tres tareas y que pienses en voz alta mientras las haces. No podré ayudarte con dónde tocar. Al final te haré un cuestionario corto. La sesión dura unos 15 minutos, los pedidos son simulados y tus datos se guardan solo con un código. Además, ¿aceptas que grabemos solo la pantalla, sin cámara ni audio? Puedes decir que no y la prueba se hace igual. ¿Aceptas participar?"
+"Gracias por ayudarnos. Vamos a probar una aplicación para pedir en la cafetería, no a evaluarte a ti. Puedes parar cuando quieras. Te pediré que hagas seis tareas y que pienses en voz alta mientras las haces. No podré ayudarte con dónde tocar. Al final te haré un cuestionario corto. La sesión dura unos 20 minutos, los pedidos son simulados y tus datos se guardan solo con un código. Además, ¿aceptas que grabemos solo la pantalla, sin cámara ni audio? Puedes decir que no y la prueba se hace igual. ¿Aceptas participar?"
