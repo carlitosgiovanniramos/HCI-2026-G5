@@ -139,6 +139,17 @@ Lo realiza el G6 (Fases 3 y 4) a partir de los datos del pilotaje y de las evalu
 | OneNote o papel | Hoja de registro durante las sesiones |
 | Xbox Game Bar de Windows | Grabación de pantalla, solo con consentimiento y sin subirla a GitHub |
 
+## Entregables
+
+| Entregable | Archivo |
+|---|---|
+| Informe del APE 6 (formato UTA) | [Word](docs/APE6_Informe_G5_CafeU.docx) · [PDF](docs/APE6_Informe_G5_CafeU.pdf) |
+| Guía de réplica de la Fase 1 (planificación) para los demás grupos | [Word](docs/APE6_Guia_Fase1_Planificacion.docx) · [PDF](docs/APE6_Guia_Fase1_Planificacion.pdf) |
+| Guía de réplica de la Fase 2 (pilotaje) para los demás grupos | [Word](docs/APE6_Guia_Fase2_Pilotaje.docx) · [PDF](docs/APE6_Guia_Fase2_Pilotaje.pdf) |
+| Presentación de la exposición | [presentacion-G5-CafeU.pptx](docs/presentacion-G5-CafeU.pptx) |
+| Guion de la exposición y del ensayo | [guion-exposicion.md](docs/guion-exposicion.md) |
+| Preguntas del G5 para G1 y G4 | [preguntas.md](docs/preguntas.md), sección 5 |
+
 ## Estructura del repositorio
 
 ```
