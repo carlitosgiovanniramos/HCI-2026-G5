@@ -200,4 +200,9 @@ Pendiente (sección 12 del [plan](evidencias/01-plan-de-evaluacion.md)).
 
 ## Conclusiones
 
-Pendientes hasta tener los datos del pilotaje. Se desarrollarán en [docs/conclusiones.md](docs/conclusiones.md).
+1. **Una interfaz que funciona puede ser una mala interfaz:** el aviso de confirmación de CaféU existe y se ejecuta, pero 6 de 6 usuarios no lo vieron porque queda cortado en el borde de la pantalla.
+2. **CaféU es eficaz, eficiente y satisfactorio para su público** (18 de 18 tareas, SUS 90,8), pero su principal debilidad es la visibilidad del estado del sistema.
+3. **Los dos métodos se complementan:** 4 problemas confirmados por ambos y 4 que solo vio la heurística, como el buscador sin tildes, que nadie usó en las pruebas.
+4. **El pilotaje validó el protocolo:** la ronda 1 reveló fallas de perfil, pista y cronometraje; la ronda 2 cumplió los cinco criterios.
+
+Desarrollo completo en [docs/conclusiones.md](docs/conclusiones.md).
