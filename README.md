@@ -160,14 +160,17 @@ HCI-2026-G5/
 > Pendiente: se completan después del pilotaje (Fase 2). No se incluyen datos hasta tener evidencia real.
 
 ### Prueba de usabilidad (pilotaje T1 a T6)
-Participantes: [P1](resultados/P1.md), [P2](resultados/P2.md) y [P3](resultados/P3.md). Resumen completo en [resultados/resumen-pilotaje.md](resultados/resumen-pilotaje.md).
+Dos rondas el 10/11/2026. Resumen completo en [resultados/resumen-pilotaje.md](resultados/resumen-pilotaje.md).
 
-- **Tasa de éxito:** 17 de 18 tareas (94 %); T3 fue la única con ayuda (P1).
-- **Tiempo en tarea (mediana):** T1 8 s · T2 16 s · T3 27 s · T4 33 s · T5 11 s · T6 22 s.
-- **Errores:** 0 críticos y 7 no críticos (6 de P1).
-- **SUS:** P1 50,0 · P2 95,0 · P3 92,5 · media 79,2.
-- **Hallazgo que se repite:** 3 de 3 no percibieron la confirmación al agregar un producto.
-- **Limitación:** ninguno de los tres confirmó ser estudiante universitario (perfil del plan) y P3 es menor de edad.
+**Ronda 2 · principal** ([P4](resultados/P4.md), [P5](resultados/P5.md) y [P6](resultados/P6.md): estudiantes universitarios que no conocían CaféU):
+- **Tasa de éxito:** 18 de 18 tareas (100 %), sin pistas.
+- **Tiempo en tarea (mediana):** T1 5 s · T2 13 s · T3 19 s · T4 23 s · T5 9 s · T6 15 s.
+- **Errores:** 0 críticos y 1 no crítico.
+- **SUS:** 90,0 · 95,0 · 87,5 (media 90,8).
+
+**Ronda 1 · inicial** ([P1](resultados/P1.md), [P2](resultados/P2.md) y [P3](resultados/P3.md): no cumplían el perfil): 17 de 18 tareas con éxito y SUS medio 79,2. Sirvió para ajustar el protocolo.
+
+**Hallazgo principal:** 6 de 6 participantes no percibieron la confirmación al agregar un producto. El aviso existe, pero queda desplazado y cortado en el borde derecho de la pantalla.
 
 ### Evaluación heurística
 Pendiente (Issue #6).

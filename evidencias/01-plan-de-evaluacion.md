@@ -139,7 +139,8 @@ Los datos se registran en `resultados/` y el resumen va aquí. No se inventan da
 | Ninguno de los tres confirmó ser estudiante universitario (P2 no lo registró; P3 tiene 12 años) | Preguntar y anotar el perfil antes de empezar. Aplicar el criterio de inclusión antes de la sesión, no después |
 | P3 es menor de edad (participó con autorización de su madre o padre) | En la v2 se excluyen menores: no pertenecen al público de CaféU y el consentimiento no los contempla |
 | En P2 y P3 cronometraron varios integrantes | Designar una sola persona para el cronómetro |
-| Los tres dijeron que "no sale aviso" al agregar, aunque el aviso existe y dura 2,2 s | Se registra como "no percibido". Antes del 17/11 el grupo verifica en pantalla cuándo y dónde aparece |
+| Los tres dijeron que "no sale aviso" al agregar, aunque el aviso existe y dura 2,2 s | Se registra como "no percibido". El grupo verificó en pantalla que el aviso queda desplazado y cortado a la derecha (ver resumen) |
+| La ronda 1 (P1 a P3) no cumplió el perfil | **Ronda 2** con P4, P5 y P6: estudiantes universitarios que no conocían CaféU, perfil preguntado antes de empezar. Cumplió los cinco criterios de la sección 11: el protocolo queda validado |
 
 Resultados completos en [`resultados/resumen-pilotaje.md`](../resultados/resumen-pilotaje.md).
 
