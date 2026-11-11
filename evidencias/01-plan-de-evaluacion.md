@@ -134,8 +134,14 @@ Los datos se registran en `resultados/` y el resumen va aquí. No se inventan da
 | Ensayo previo (10/11, 20:44): solo T1 se cronometró en vivo; los demás tiempos se estimaron | Esa corrida no cuenta como dato. Todos los tiempos se toman en vivo con cronómetro, desde que termina la lectura de la tarea |
 | P1 no pertenece al perfil (mayor de 50 años, poca experiencia con apps) | Se conservan sus datos y se reportan aparte. P2 y P3 deben cumplir el perfil (estudiantes) |
 | En T3 con P1 se dio una pista distinta de la permitida ("fíjese dentro del detalle del producto") | Llevar la pista escrita en la hoja y leerla textual. Si se da otra, registrarlo como desviación |
-| P1 pidió repetir T2 y T4 (T4 tiene tres pasos) | [Pendiente de P2 y P3] Si se repite, en la v2 se entrega la tarea también escrita en una tarjeta |
-| La sesión de P1 duró 22 min (criterio: 20 min o menos) | [Pendiente de P2 y P3] Si se repite, ajustar la duración anunciada en el consentimiento |
+| Solo P1 pidió repetir T2 y T4 (T4 tiene tres pasos); P2 y P3 no | Mantener las consignas. En la v2, tener la tarea también escrita en una tarjeta para quien la pida |
+| Duración: P1 22 min, P2 16 min, P3 14 min | Se mantienen los 20 min anunciados; solo P1 los superó |
+| Ninguno de los tres confirmó ser estudiante universitario (P2 no lo registró; P3 tiene 12 años) | Preguntar y anotar el perfil antes de empezar. Aplicar el criterio de inclusión antes de la sesión, no después |
+| P3 es menor de edad (participó con autorización de su madre o padre) | En la v2 se excluyen menores: no pertenecen al público de CaféU y el consentimiento no los contempla |
+| En P2 y P3 cronometraron varios integrantes | Designar una sola persona para el cronómetro |
+| Los tres dijeron que "no sale aviso" al agregar, aunque el aviso existe y dura 2,2 s | Se registra como "no percibido". Antes del 17/11 el grupo verifica en pantalla cuándo y dónde aparece |
+
+Resultados completos en [`resultados/resumen-pilotaje.md`](../resultados/resumen-pilotaje.md).
 
 **Hallazgos preliminares para el G6:** se listan en `resultados/` con la tarea, la evidencia y la heurística posiblemente violada. El G6 les asigna la severidad final (1 cosmético a 4 crítico) y construye el backlog.
 

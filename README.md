@@ -160,8 +160,14 @@ HCI-2026-G5/
 > Pendiente: se completan después del pilotaje (Fase 2). No se incluyen datos hasta tener evidencia real.
 
 ### Prueba de usabilidad (pilotaje T1 a T6)
-- Participantes registrados: 1 de 3 ([P1](resultados/P1.md); P2 y P3 pendientes)
-- Tasa de éxito, tiempos, errores y SUS consolidados: pendientes hasta completar los 3 participantes
+Participantes: [P1](resultados/P1.md), [P2](resultados/P2.md) y [P3](resultados/P3.md). Resumen completo en [resultados/resumen-pilotaje.md](resultados/resumen-pilotaje.md).
+
+- **Tasa de éxito:** 17 de 18 tareas (94 %); T3 fue la única con ayuda (P1).
+- **Tiempo en tarea (mediana):** T1 8 s · T2 16 s · T3 27 s · T4 33 s · T5 11 s · T6 22 s.
+- **Errores:** 0 críticos y 7 no críticos (6 de P1).
+- **SUS:** P1 50,0 · P2 95,0 · P3 92,5 · media 79,2.
+- **Hallazgo que se repite:** 3 de 3 no percibieron la confirmación al agregar un producto.
+- **Limitación:** ninguno de los tres confirmó ser estudiante universitario (perfil del plan) y P3 es menor de edad.
 
 ### Evaluación heurística
 Pendiente (Issue #6).
