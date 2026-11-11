@@ -1,4 +1,4 @@
-# Hoja de observación · Prueba de usabilidad del Dashboard 2.0
+# Hoja de observación · Prueba de usabilidad del prototipo CaféU
 
 **Responsable de este documento:** Melany Cevallos
 **Grupo 5 · Interacción Persona-Ordenador · UTA · Paralelo 5A**
@@ -13,22 +13,24 @@
 - **Éxito:** *Sí* = sin ayuda. *Con ayuda* = después de la pista permitida. *No* = no la completa, abandona o supera el tiempo máximo. Solo "Sí" cuenta como éxito.
 - **Tiempo:** desde que el moderador termina de leer la tarea hasta que el usuario la completa o abandona.
 - **Error crítico:** impide completar la tarea. **Error no crítico:** el usuario se equivoca pero se recupera solo.
-- **Tiempo máximo:** T2 8 min, T3 6 min y T4 6 min.
+- **Tiempo máximo:** T2 2 min, T3 2 min y T4 3 min.
+- **Pista** (una vez por tarea, si la pide o tras 30 s sin avanzar): "Vuelve a leer la tarea y revisa las opciones que tienes en pantalla." → se registra *Con ayuda*.
 
 ---
 
 ## Hoja por participante
 
 **Participante:** P__ **Fecha:** __/__/2026 **Hora de inicio:** __:__
-**Equipo y navegador:** Lenovo LOQ · Chrome 157 **Acepta grabación de pantalla:** Sí / No
+**Equipo y navegador:** Lenovo LOQ · Chrome 157 · CaféU (figma.site) **Acepta grabación de pantalla:** Sí / No
+**Estado inicial comprobado** (pantalla Inicio, "Mi pedido" en 0): ☐
 **Moderador:** ____ **Registro:** ____ **Observador:** ____ (iniciales)
 
 ### Registro por tarea
 | Tarea | Meta | ¿Éxito? (Sí / Con ayuda / No) | Tiempo (mm:ss) | Errores críticos | Errores no críticos | ¿Pidió repetir la tarea? (Sí / No) | Observaciones |
 |---|---|---|---|---|---|---|---|
-| T2 · Crear "Sistema de biblioteca" y llegar a la guía de moderación | 4 min | | | | | | |
-| T3 · Registrar una observación y aplicar la sugerencia de la IA | 3 min | | | | | | |
-| T4 · Completar la síntesis, finalizar y generar el Sprint Backlog | 3 min | | | | | | |
+| T2 · Agregar un sánduche de queso al pedido | 60 s | | | | | | |
+| T3 · Agregar también dos cafés americanos | 60 s | | | | | | |
+| T4 · Quitar el sánduche, confirmar y decir el número de pedido (#CU-104) | 90 s | | | | | | |
 
 *(En la exposición del 17/11 se usan las filas T1, T5 y T6, con las respuestas de [03-tareas.md](03-tareas.md).)*
 
@@ -77,9 +79,9 @@ Lo responde el participante al terminar las tres tareas, marcando una sola opci�
 |---|---|
 | ¿El participante entendió las tareas sin que se repitieran? | |
 | ¿Registro y observación pudieron anotar todo a tiempo? | |
-| ¿Hubo fallos técnicos del Dashboard o de la conexión? | |
+| ¿Hubo fallos técnicos del prototipo o de la conexión (por ejemplo, imágenes que no cargaron)? | |
 | ¿Cuánto duró la sesión completa? | |
-| ¿Se hizo el reinicio y el Dashboard volvió al estado inicial? (ver [03-tareas.md](03-tareas.md)) | |
+| ¿Se recargó la página y el prototipo volvió al estado inicial? (ver [03-tareas.md](03-tareas.md)) | |
 | ¿Qué cambiaríamos del protocolo para la siguiente sesión? | |
 
 ---
