@@ -16,17 +16,17 @@
 - Un botón que ejecuta bien su acción, pero cuya etiqueta no describe lo que hace.
 - Un sistema que guarda correctamente una acción, pero no muestra ninguna confirmación, por lo que el usuario la repite.
 
-**Cierre sugerido:** CaféU funciona: navega, calcula totales y genera el número de pedido (verificación). Al terminar el laboratorio, retomar la pregunta y responderla con la evidencia obtenida en la validación con estudiantes nuevos: [COMPLETAR después del pilotaje: hallazgo concreto que ilustre la respuesta].
+**Cierre sugerido:** CaféU funciona: navega, calcula totales y genera el número de pedido (verificación). Al terminar el laboratorio, retomar la pregunta y responderla con la evidencia: el aviso "Producto agregado al pedido" **existe y se ejecuta**, pero **6 de 6 participantes no lo vieron** porque quedaba desplazado y cortado en el borde derecho. Funciona técnicamente y aun así falla en usabilidad (corregido en el Issue #10).
 
 ---
 
-## 2. Preguntas técnicas probables del grupo QA/UX retador
+## 2. Preguntas técnicas que nos pueden hacer (docente o clase)
 
 ### T1. ¿Cuántos usuarios probaron y por qué es suficiente?
 
 **Respuesta sugerida:** en el pilotaje probamos con 3 participantes (P1, P2 y P3). Nuestro estudio es **formativo** y, además, es un **pilotaje**: busca validar el protocolo y descubrir problemas, no certificar estadísticamente el prototipo CaféU. Según Nielsen y Landauer (1993), alrededor de cinco usuarios bastan para detectar la mayoría de los problemas frecuentes en este tipo de estudio. Reconocemos dos límites. Primero, Faulkner (2003) mostró una alta variabilidad entre muestras pequeñas. Segundo, nuestras métricas cuantitativas son **descriptivas** y no generalizables; un estudio sumativo requeriría alrededor de 20 participantes. Por eso no afirmamos porcentajes poblacionales y combinamos la prueba con una evaluación heurística, que no depende del tamaño de la muestra de usuarios.
 
-**Evidencia a mostrar:** 3 estudiantes que no diseñaron CaféU ni participaron en la prueba del APE 4; [COMPLETAR después del pilotaje: problemas que se repitieron entre participantes].
+**Evidencia a mostrar:** dos rondas de 3 participantes. La ronda 2 (P4 a P6) son estudiantes universitarios que no conocían CaféU; la ronda 1 no cumplía el perfil y sirvió para ajustar el protocolo. El problema del aviso al agregar se repitió en **6 de 6** participantes y el uso de "Agregar" dos veces en lugar de "+" en **3 de 6**.
 
 ### T2. ¿Por qué eligieron la evaluación heurística y la prueba con usuarios, y no otros métodos?
 
@@ -36,7 +36,7 @@
 
 **Respuesta sugerida:** aplicamos el procedimiento estándar de Brooke (1996): impares = puntaje − 1; pares = 5 − puntaje; suma × 2,5, con un rango de 0 a 100. El puntaje no es un porcentaje. Lo comparamos con el promedio de referencia de aproximadamente 68 (Sauro y Lewis, 2016). Tullis y Stetson (2004) reportan que el SUS se estabiliza con alrededor de 12–14 participantes; con nuestra muestra lo interpretamos como un indicador y no como una medida concluyente.
 
-**Evidencia a mostrar:** [COMPLETAR después del pilotaje: puntaje SUS de P1, P2 y P3 y promedio]. Versión usada: traducción del grupo a partir de Brooke (1996); la versión validada en español es la de Sevilla-González et al. (2020).
+**Evidencia a mostrar:** ronda 2: 90,0 · 95,0 · 87,5 (media 90,8). Ronda 1: 50,0 · 95,0 · 92,5 (media 79,2). El SUS de 50 de P1 (mayor de 50 años, poca experiencia con apps) muestra por qué no se debe mezclar perfiles sin declararlo. Versión usada: traducción del grupo a partir de Brooke (1996); la versión validada en español es la de Sevilla-González et al. (2020).
 
 ### T4. ¿Cómo definieron qué es "éxito" y qué es "error"?
 
@@ -73,9 +73,9 @@
 ### O1. "¿Qué evidencia tienen de que este problema es realmente grave?"
 
 **Respuesta sugerida:** la severidad no es una opinión; se sustenta en tres elementos verificables:
-1. **Frecuencia:** [COMPLETAR: x de n participantes lo experimentaron].
-2. **Impacto:** [COMPLETAR: efecto en tasa de éxito, tiempo o errores; p. ej., si impidió completar la tarea].
-3. **Principio violado:** [COMPLETAR: heurística de Nielsen] y su consistencia con lo observado.
+1. **Frecuencia:** el aviso al agregar no lo percibieron **6 de 6** participantes, y **4 de 4** evaluadores lo marcaron.
+2. **Impacto:** no impidió completar la tarea (por eso no es crítico), pero generó duda ("¿Y ahora cómo sé que ya se puso?") y en P1 una verificación extra en "Mi pedido".
+3. **Principio violado:** heurística 1, visibilidad del estado del sistema, y es consistente con lo observado: los usuarios se guiaron solo por el contador.
 
 Si un problema no tiene evidencia de usuarios, lo declaramos como potencial y su severidad se justifica únicamente por la heurística.
 
@@ -116,7 +116,55 @@ Si un problema no tiene evidencia de usuarios, lo declaramos como potencial y su
 
 ---
 
-## 5. Registro de preguntas recibidas el día de la exposición
+## 5. Preguntas del G5 como grupo QA/UX retador (a G1 y G4)
+
+Cada pregunta trae la **respuesta esperada** (lo que debería contener una buena respuesta) y una **repregunta** por si la respuesta es débil. Todas piden evidencia, no opiniones.
+
+### Al G1 · Emoción y experiencia de usuario (curva emocional, momentos de verdad y mejoras)
+
+**Técnica 1 · Pregunta:** "¿Cómo midieron la emoción en cada touchpoint de la curva? ¿La reportó el usuario, por ejemplo con una escala, o la estimó el equipo? ¿Con cuántos usuarios?"
+- **Respuesta esperada:** la emoción la **reportaron usuarios reales** en cada touchpoint con un instrumento definido (escala de 1 a 5, caritas o la escala SAM), más lo que se observó o dijeron en voz alta. Indican cuántos usuarios participaron y aclaran que, si fueron pocos, la curva es indicativa.
+- **Respuesta débil:** "la curva la hicimos según lo que creemos que siente el usuario".
+- **Repregunta:** "Entonces la curva es una hipótesis del equipo. ¿Qué dato de un usuario real respalda el punto más bajo de la curva?"
+
+**Técnica 2 · Pregunta:** "¿Qué criterio usaron para decidir que un touchpoint es un **momento de verdad** y no un punto más de la curva?"
+- **Respuesta esperada:** un momento de verdad es el punto donde el usuario **decide si confía, continúa o abandona** (por ejemplo, el pago o la confirmación del pedido). Lo identificaron por su impacto en la decisión y por la variación emocional (los picos o caídas más fuertes), no solo por ser un paso del flujo.
+- **Respuesta débil:** "son los pasos más importantes".
+- **Repregunta:** "¿Qué pasa con el usuario si ese momento sale mal: abandona, se equivoca o pide ayuda? ¿Lo observaron?"
+
+**Objeción:** "Ustedes muestran una curva de 'después' con emociones más positivas. Pero si esa curva la construyó el mismo equipo que diseñó la mejora, es una **predicción**, no una evidencia. ¿Volvieron a probar la versión mejorada con usuarios reales?"
+- **Respuesta esperada:** reconocen la diferencia entre **predicción y evidencia**. Lo ideal es que hayan repetido la prueba con usuarios en la versión mejorada y comparen la misma métrica antes y después. Si no lo hicieron, lo declaran como limitación y proponen esa prueba como siguiente paso.
+- **Respuesta débil:** "se ve claramente que la nueva versión es mejor".
+- **Repregunta:** "¿Con qué métrica compararían el antes y el después para demostrarlo: tiempo, errores, satisfacción?"
+
+### Al G4 · Implementación de interfaces web y móviles (HTML5/CSS, responsive, mobile first)
+
+**Técnica 1 · Pregunta:** "¿Cómo comprobaron que la interfaz es responsive? ¿Solo con capturas en DevTools, o midieron algo concreto, como que no haya desplazamiento horizontal en 320, 360, 768 y 1366 px?"
+- **Respuesta esperada:** usaron un **criterio medible**: en cada ancho, `document.documentElement.scrollWidth` es igual a `innerWidth` (0 px de desborde), según el criterio WCAG 1.4.10 (Reflow). Muestran capturas de cada ancho con la medición y explican el punto de quiebre (por ejemplo, 48rem) con mobile first.
+- **Respuesta débil:** "lo vimos en el celular y se veía bien".
+- **Repregunta:** "¿Cómo sabría otra persona, sin mirar sus capturas, que en 320 px no hay desplazamiento horizontal?"
+
+**Técnica 2 · Pregunta:** "¿Qué criterios de accesibilidad aplicaron (contraste mínimo de 4,5:1, botones de al menos 44 px, navegación con teclado y foco visible) y cómo verificaron cada uno?"
+- **Respuesta esperada:** nombran criterios WCAG concretos y cómo los comprobaron: contraste 1.4.3 calculado con una herramienta; tamaño de objetivos táctiles de al menos 44 × 44 px; operación con teclado (2.1.1) recorriendo la pantalla solo con Tab, Enter y Esc; foco visible (2.4.7); HTML semántico y `role="status"` para los mensajes.
+- **Respuesta débil:** "usamos colores con buen contraste".
+- **Repregunta:** "¿Cuál es la relación de contraste de su texto secundario y con qué la midieron?"
+
+**Objeción:** "Que la interfaz se adapte a todas las pantallas demuestra **verificación**: funciona. Pero no demuestra **validación**. ¿Probaron con usuarios en un celular real si pueden completar la tarea sin ayuda? Sin eso no pueden afirmar que es usable."
+- **Respuesta esperada:** aceptan la distinción: lo responsive y accesible es necesario, pero no suficiente. Lo ideal es que muestren una observación con usuarios (tarea, éxito, tiempo y dificultades) en el ancho móvil. Si no la hicieron, lo declaran como limitación y la proponen como siguiente paso.
+- **Respuesta débil:** "si se ve bien en todas las pantallas, es usable".
+- **Repregunta:** "Nosotros encontramos un aviso que funcionaba en el código, pero que 6 de 6 usuarios no vieron. ¿Cómo descartan que a ustedes les pase lo mismo?"
+
+### Reparto sugerido
+| Pregunta | Quién la hace |
+|---|---|
+| G1 · Técnica 1 | Henry Lagua |
+| G1 · Técnica 2 | Melany Cevallos |
+| G1 · Objeción | Carlos Ramos |
+| G4 · Técnica 1 | Allison Cobos |
+| G4 · Técnica 2 | Henry Lagua |
+| G4 · Objeción | Melany Cevallos |
+
+## 6. Registro de preguntas el día de la exposición
 
 | # | Tipo (técnica / objeción / debate) | Pregunta recibida | Respuesta del grupo | Integrante que respondió |
 |---|---|---|---|---|
